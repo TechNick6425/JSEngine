@@ -1,4 +1,4 @@
-Sound = {
+sound = {
 	
 	tracks: {},
 	enabled: true,
