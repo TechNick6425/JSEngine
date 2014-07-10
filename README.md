@@ -8,7 +8,8 @@ Name       | Uses
 gl         | Used for initializing WebGL.
 input      | Functions for keyboard input.
 
-Users can submit their own libraries with a pull request with the library in the lib folder.
+Users can submit their own libraries here.
+bit.ly/1kIMJ6R
 
 Installing
 ==========
