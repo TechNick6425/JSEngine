@@ -5,7 +5,7 @@ JSEngine is a dynamic library loader written in PHP. It contains a large library
 
 Name       | Uses
 ---------- | ----------------------------
-gl         | Used for initialized WebGL.
+gl         | Used for initializing WebGL.
 input      | Functions for keyboard input.
 
 Users can submit their own libraries with a pull request with the library in the lib folder.
@@ -27,8 +27,8 @@ Installing
 2. Put it in the folder of your app.
 3. Paste this into the header of your HTML document.
 
-'''
+```
 <?php include('loader.php'); ?>
-'''
+```
 
-4. Load libraries by using '<?php js_include(name); ?>' and replacing "name" with the name of the library.
+4. Load libraries by using `<?php js_include(name); ?>` and replacing "name" with the name of the library.
