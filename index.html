@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="JSEngine : Dynamic Loaded Libraries for Javascript" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>JSEngine</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/TechNick6425/JSEngine">View on GitHub</a>
+
+          <h1 id="project_title">JSEngine</h1>
+          <h2 id="project_tagline">Dynamic Loaded Libraries for Javascript</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/TechNick6425/JSEngine/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/TechNick6425/JSEngine/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>JSEngine is a dynamic library loader written in PHP. It contains a large library of scripts to use. Included libraries include below.</p>
+
+<table>
+<thead><tr>
+<th>Name</th>
+<th>Uses</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>gl</td>
+<td>Used for initialized WebGL.</td>
+</tr>
+<tr>
+<td>input</td>
+<td>Functions for keyboard input.</td>
+</tr>
+</tbody>
+</table><p>Users can submit their own libraries with a pull request with the library in the lib folder.</p>
+
+<h1>
+<a name="installing" class="anchor" href="#installing"><span class="octicon octicon-link"></span></a>Installing</h1>
+
+<h3>
+<a name="from-repo" class="anchor" href="#from-repo"><span class="octicon octicon-link"></span></a>From repo</h3>
+
+<ol>
+<li>Download the repository.</li>
+<li>Delete the "lib" folder.</li>
+<li>Put "index.php" and "loader.php" in the root of your server.</li>
+</ol><h3>
+<a name="by-hand" class="anchor" href="#by-hand"><span class="octicon octicon-link"></span></a>By hand</h3>
+
+<h5>
+<a name="warning-i-take-no-responsibility-if-this-method-fails-as-this-method-breaking-is-entirely-the-fault-of-the-user" class="anchor" href="#warning-i-take-no-responsibility-if-this-method-fails-as-this-method-breaking-is-entirely-the-fault-of-the-user"><span class="octicon octicon-link"></span></a>WARNING I take no responsibility if this method fails, as this method breaking is entirely the fault of the user.</h5>
+
+<ol>
+<li>Download "loader.php"</li>
+<li>Put it in the folder of your app.</li>
+<li>Paste this into the header of your HTML document.</li>
+</ol><pre><code>&lt;?php include('loader.php'); ?&gt;
+</code></pre>
+
+<p>Load libraries by using <code>&lt;?php js_include(name); ?&gt;</code> and replacing "name" with the name of the library.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">JSEngine maintained by <a href="https://github.com/TechNick6425">TechNick6425</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-52714165-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
