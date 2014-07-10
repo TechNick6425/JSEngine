@@ -104,7 +104,7 @@ var Keyboard = {
 	F12: 123,
 	
 	isDown: function(keyCode) {
-		return this._pressed[keyCode] = true;
+		return this._pressed[keyCode];
 	}
 	
 	onKeyDown: function(event) {
